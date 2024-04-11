@@ -18,9 +18,9 @@
       }
     ],
     "paths": {
-      "u[Cn/*defined": ["./*"]
+      "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/atoms/CopyToClipboard.jsx"],
   "exclude": ["node_modules"]
 }
